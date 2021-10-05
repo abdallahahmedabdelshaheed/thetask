@@ -1288,7 +1288,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 #password p {
@@ -1321,10 +1321,10 @@ body {
   color: #9a97bd;
   transition: all 0.7s;
   font-size: 15px;
-  margin-left: 10px;
-  position: absolute;
-  bottom: 70px;
-  left: 600px;
+  margin:0px auto;
+  margin-bottom: 100px;
+
+
 }
 
 #part8button:hover {
