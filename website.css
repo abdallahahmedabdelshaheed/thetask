@@ -21,6 +21,68 @@ body {
   z-index: 999;
 }
 
+#navshrinkdiv {
+  width: 45px;
+  height: 40px;
+  background-color: #443c94;
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  border: 1px solid rgb(131, 120, 163);
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#navshrink {
+  width: 40px;
+  height: 7px;
+  margin-left: 2px;
+  border-radius: 50px;
+  border: 0px;
+  position: relative;
+  background-color: white;
+}
+
+#navshrink::after {
+  content: "";
+  width: 40px;
+  height: 7px;
+  position: absolute;
+  top: -12px;
+  left: 0px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#navshrink::before {
+  content: "";
+  width: 40px;
+  height: 7px;
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  #navshrinkdiv {
+    display: flex;
+  }
+  #navbuttons {
+    display: none;
+  }
+  .navshrinkclass {
+    display: none;
+  }
+}
+
 #logo {
   width: 40px;
   height: 40px;
@@ -1321,10 +1383,8 @@ body {
   color: #9a97bd;
   transition: all 0.7s;
   font-size: 15px;
-  margin:0px auto;
+  margin: 0px auto;
   margin-bottom: 100px;
-
-
 }
 
 #part8button:hover {
@@ -1376,40 +1436,34 @@ body {
   color: #7c72c7;
 }
 
-body::-webkit-scrollbar{
-    width: 10px; 
+body::-webkit-scrollbar {
+  width: 10px;
 }
 
-body::-webkit-scrollbar-thumb{
-    background-color: #7a776f;
-
-
+body::-webkit-scrollbar-thumb {
+  background-color: #7a776f;
 }
 
-body::-webkit-scrollbar-track{
-    background-color: #dddddd;
+body::-webkit-scrollbar-track {
+  background-color: #dddddd;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
-h1{
-    cursor: default;
+h1 {
+  cursor: default;
 }
 
-h2{
-    cursor: default;
+h2 {
+  cursor: default;
 }
 
-h3{
-    cursor: default;
+h3 {
+  cursor: default;
 }
 
-p{
-    cursor: default;
+p {
+  cursor: default;
 }
-
-
-
-
