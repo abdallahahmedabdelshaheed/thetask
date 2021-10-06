@@ -536,6 +536,8 @@ body {
 
 #part2div1 {
   height: 130px;
+  width: 100%;
+  max-width: 360px;
   background-color: #351c79;
   display: flex;
   flex-direction: column;
@@ -572,6 +574,8 @@ body {
 
 #part2div2 {
   height: 130px;
+  width: 100%;
+  max-width: 360px;
   background-color: #351c79;
   display: flex;
   flex-direction: column;
@@ -608,6 +612,8 @@ body {
 
 #part2div3 {
   height: 130px;
+  width: 100%;
+  max-width: 360px;
   background-color: #351c79;
   display: flex;
   flex-direction: column;
