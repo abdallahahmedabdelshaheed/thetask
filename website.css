@@ -573,7 +573,7 @@ body {
 
 #part2div2 {
   height: 130px;
-  width: 100%;
+  width: 290px;
   max-width: 360px;
   background-color: #351c79;
   display: flex;
@@ -590,6 +590,7 @@ body {
 }
 
 #part2div2 p {
+  font-size: 13px;
   margin: 0px;
   color: #7d72cc;
 }
@@ -611,7 +612,7 @@ body {
 
 #part2div3 {
   height: 130px;
-  width: 100%;
+  width: 290px;
   max-width: 360px;
   background-color: #351c79;
   display: flex;
@@ -628,6 +629,7 @@ body {
 }
 
 #part2div3 p {
+  font-size: 13px;
   margin: 0px;
   color: #7d72cc;
 }
