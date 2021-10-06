@@ -534,7 +534,7 @@ body {
 
 #part2div1 {
   height: 130px;
-  width: 100px;
+  width: 290px;
   max-width: 360px;
   background-color: #351c79;
   display: flex;
@@ -552,6 +552,7 @@ body {
 
 #part2div1 p {
   margin: 0px;
+  font-size: 13px;
   color: #7d72cc;
 }
 
