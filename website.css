@@ -692,11 +692,11 @@ body {
 }
 
 #par3img {
-  width: 450px;
+  width: 440px;
   height: 450px;
   background-image: url(emages/bgi1.png);
   background-size: cover;
-  min-width: 450px;
+  min-width: 440px;
   margin: 0px;
 }
 
