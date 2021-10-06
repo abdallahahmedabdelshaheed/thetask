@@ -658,15 +658,16 @@ body {
   border-top: 200px solid #231050;
   border-bottom: 100px solid #231050;
   color: white;
+  overflow: hidden;
 }
 
 #part3content {
-  width: 450px;
+  width: 290px;
   height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  min-width: 450px;
+  min-width: 290px;
 }
 
 #part3content p {
@@ -696,6 +697,7 @@ body {
   background-image: url(emages/bgi1.png);
   background-size: cover;
   min-width: 450px;
+  margin: 0px;
 }
 
 #part4 {
