@@ -534,7 +534,7 @@ body {
 
 #part2div1 {
   height: 130px;
-  width: 100%;
+  width: 100px;
   max-width: 360px;
   background-color: #351c79;
   display: flex;
