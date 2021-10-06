@@ -521,7 +521,7 @@ body {
 }
 
 #part2img {
-  width: 300px;
+  width: 290px;
   height: 400px;
   background-image: url(emages/robot2.png);
   background-size: cover;
@@ -692,11 +692,11 @@ body {
 }
 
 #par3img {
-  width: 440px;
+  width: 450px;
   height: 450px;
   background-image: url(emages/bgi1.png);
   background-size: cover;
-  min-width: 440px;
+  min-width: 450px;
   margin: 0px;
 }
 
