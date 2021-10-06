@@ -528,10 +528,10 @@ body {
 }
 
 #part2divs {
-  width: 450px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  min-width: 450px;
+  max-width: 450px;
 }
 
 #part2div1 {
